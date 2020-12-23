@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    background: none;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/576735053283983361/788782477916635176/222222.png);
+    background-size: cover;
+    background-position: -100px -70px;
+}
+
+header {
+    background: none;
+    margin-bottom: 83px;
+}
+
+.header-items {
+    align-items: center;
+    justify-content: center;
+}
+
+/*Меню в хедере*/
+
+ul.menu li a {
+    color: #fff;
+    font-family: 'Liberation Serif', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 75px;
+    transition: .3s ease-in-out;
+    background: none !important;
+}
+
+ul .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    height: 40px;
+    background: none;
+}
+
+.menu {
+    overflow: hidden;
+    height: 40px;
+    margin: -33px 0px; /*отступы между кнопками*/
+    margin-top: 20px;
+    padding-bottom: 65px;
+    margin-left: 323px; /*расстояние от левого края*/
+    z-index: 1;
+    mix-blend-mode: hard-light;
+    background: none;
+}
+
+ul.menu li {
+    list-style: none;
+    float: left;
+    background: none;
+}
+
+ul.menu li.selected a {
+    color: #FE9F99;
+}
+
+ul.menu li a:hover {
+    transition: .3s ease-in-out;
+    color: #FE9F99;
+}
+
+/*Мейн парт*/
+
+/*таблица*/
+
+table {
+    color: #fff;
+    border: 7px solid #5343E2;
+    border-radius: 0 0 41px 41px ;
+    margin-left: 150px;
+    margin-bottom: 166px;
+}
+
+/*строки*/
+
+tr, td, th {
+    background: none;
+    border: 3.5px solid #5343E2;
+    font-family: 'Liberation Serif' sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+td {
+    text-align: center;
+}
+
+/*заголовок*/
+
+caption {
+    border: 7px solid #5343E2;
+    border-bottom: none;
+    border-radius:41px 41px 0 0;
+    padding: 30px 346px 30px 346px;
+    font-family: 'Liberation Serif' sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*заголовок элемента*/
+
+.main-title h1 {
+    font-family: 'Liberation Serif' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 775px;
+}
+
+.main-items {
+    background-repeat: no-repeat;
+
+}
+
+/*кнопки*/
+
+.controls button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+.controls button .btnrht {
+    width: 2px;
+    height: 2px;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #5343E2;
+    border-bottom: 20px solid transparent;
+    margin-left: 1420px;
+    margin-top: -785px;
+    transition: .3s ease-in-out;
+}
+
+.controls button .btnrht:hover { /*анимация кнопки*/
+    transform: translateX(15px);
+    transition: .3s ease-in-out;
+}
+
+.controls button .btnlft {
+    width: 2px;
+    height: 2px;
+    border-top: 20px solid transparent;
+    border-right: 40px solid #5343E2;
+    border-bottom: 20px solid transparent;
+    margin-left: 0px;
+    margin-top: -785px;
+    transition: .3s ease-in-out;
+}
+
+.controls button .btnlft:hover { /*анимация кнопки*/
+    transform: translateX(-15px);
+    transition: .3s ease-in-out;
+}
+
+/*Футер*/
+
+footer {
+    align-items: center;
+    text-align: center;
+    width: 1519px;
+    height: 161px;
+    background: linear-gradient(180deg, #34247C -83.85%, rgba(52, 36, 124, 0) 157.45%), #5343E2;
+    justify-content: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+footer h2 {
+    font-family: 'Liberation Serif', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
